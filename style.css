@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    font-family: 'Verdana';
+}
+
+header {
+    background: #FFD900;
+    padding: 30px;
+    left: 58px;
+}
+
+section {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 44vw;
+    
+}
+
+#desc {
+    background:#514988; 
+    width: 1000px; 
+}
+#inter{
+    width: 5000px;
+}
+
+#titulo {
+    color: #F3C61F;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    text-align: center;
+    padding: 30px;
+    align-items: center;
+text-align: center;
+
+}
+
+#data {
+    color: #FFF;
+    font-size: 30px;
+    text-align: center; 
+    margin-bottom: 50px;  
+    align-items: center;
+text-align: center;
+
+}
+
+#conteudo {
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 29px;
+    align-items: center;
+text-align: center;
+
+
+}
+
+#inter {
+    width: 97%;
+}
+
+#video {
+    padding: 10px;
+}
+
+    #aviso {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        color: #E33881;
+
+    }
+
+    #compre {
+       display: grid;
+       grid-auto-flow: column;
+        grid-auto-columns: 60vw;
+        
+    }
+
+    #ingressos {
+        justify-content: center;
+        
+    }
+
+    #ing1{
+        font-size: 25px;
+        line-height: 33px;
+        text-align: center;
+        color: #F3C61F;
+        padding: 20px 0px 20px 0px;
+        
+
+        
+    }
+
+    #ing2 {
+        padding: 0px 250px ;
+        display: grid;
+        grid-auto-flow: column;
+         grid-auto-columns: 9vw;
+    }
+    
+    #compra{
+        display: flex;
+        align-items: center;
+        margin-left: -150px;
+    }
+
+
+    button:hover{
+        background: #514988;
+        cursor: pointer;
+        color: #f3c61f;
+    
+    }
+
+    button {
+       
+        width: 596px;
+        height: 148px;
+        background: #514988;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 35px;
+        text-align: center;
+        color: #FFFFFF;
+        transition: 0.5s;
+        cursor: pointer;
+
+        
+    }
+
+    #countdown{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .cd {
+        color: #514988;
+        margin-top: 20px;
+        font-family: 'Verdana';
+        font-weight: bold;
+        font-size: 70px;
+        text-align: center;
+        height: auto;
+    }
+
+    #card-ingresso{
+        cursor: pointer;
+        box-shadow: gray;
+    }
