@@ -1,2 +1,2 @@
 # LandingPageCCXP
-DNC curse - landing page
+DNC course - landing page
